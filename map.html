@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Golf golf golf</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="map.js"></script>	
+	<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBkodqurbDQ5ArHz96B1NJ3BdUiF3o7DGQ&callback=init"></script>
+	
+	<link rel="stylesheet" href="Content/map.css" />	
+	<link rel="stylesheet" type="text/css" href="Content/site.css">
+
+</head>
+
+<body>
+				
+	<div id="map-container">
+		<div id="map-canvas"></div>
+		<p id="nogeolocation"></p>
+	</div>
+	
+	<div id="postcodeWrap">
+		<label class="headlabel">Enter the postcode of a golf course</label>	
+		<input type="text" id="txtPostcode" class="form-control textInput" >
+		<button type="button" class="btn-secondary btn searchBtn" id="btnSearch">Search</button>	
+	</div>
+	
+	<div id="playerInfo"></div>
+	
+		<script type="text/template" id="playerLineTemplate">      
+			<div class="playerLine">			
+				<label class="headlabel">{{playerName}}</label>	
+				<label class="datalabel">{{journey.duration.text}}</label>	
+				<label class="datalabel">{{journey.distance.text}}</label>
+			</div>
+		</script>
+						
+</body>

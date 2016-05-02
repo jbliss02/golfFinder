@@ -1,0 +1,41 @@
+.ui-page { background:white; }
+#bannerImg {display: block; margin-left: auto; margin-right: auto; margin-bottom:10%;}
+.img-wrapper {background-color:white; width:100%;margin-top:5%;}
+
+.question h2{margin-top:8%; text-align:center; letter-spacing: 1px; word-spacing:3px;font-size:1em;}
+.answer {margin-top:4%; display: block; margin-left: auto; margin-right: auto; width:80%;}
+.nextQuestion{width:80%;display: block; margin-left: auto; margin-right: auto; margin-top:4%;}
+
+#searchInfo{margin-top:10%; display: block; margin-left: auto; margin-right: auto; }
+#searchText{font-size: 1.3em; text-align:center;word-spacing:3px;}
+
+#login-wrap {width:90%; margin:auto;}
+#loginWrapper {width:80%;display: block; margin-left: auto; margin-right: auto; margin-top:4%;}
+#btnLogin{background-color:green; color:white; margin-top:10%; margin-bottom:10%; letter-spacing: 1px; word-spacing:3px;}
+
+#btnForgot{font-size:0.8em; width:75%;margin-top:10%; display: block; margin-left: auto; margin-right: auto; }
+
+#forgotInfo {margin-bottom:10%; display: block; margin-left: auto; margin-right: auto; font-weight:bold;}
+
+
+#registerform{width:80%; margin:auto;}
+#registerform .select {font-size:0.8em; padding-top:5%;}
+#registerform #btnSubmit {background-color:green; color:white; margin-top:10%; margin-bottom:10%; letter-spacing: 1px; word-spacing:3px;}  
+
+.propoverview {width:80%; margin:auto; padding-top:10%; text-align:center;}
+.btnPropview {width:55%; margin-top:5%; margin-left: auto; margin-right: auto;}
+.small-img{max-width:100%; min-width:100%;}
+
+.ui-popup-container, .ui-popup {height: 95%;width:95%;margin:auto;}
+#popup-img{width:100%; position: relative;top: 50%;transform: translateY(-50%);}
+
+.popupFav{max-height:50px;text-align:center;position: relative;top: 50%;transform: translateY(-50%);}
+
+.favButton {width:60%;display: block; margin-left: auto; margin-right: auto; margin-top:4%;}
+.faverror {margin:auto; text-align:center;}
+#favHeader {text-align:center; padding-bottom:5%;}
+#favHeader p {font-size:0.9em; margin:auto; padding-top:10%;}
+#favHeader .ui-btn {width:60%; margin:auto; margin-bottom:2%;}
+
+#favclear {margin-top:10%;}
+#btnClearFav {width:60%; margin-top:15%; margin:auto;}
